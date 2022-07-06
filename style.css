@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .banner-area{
@@ -40,4 +40,80 @@ body{
     font-size: 18px;
     cursor:pointer;
     background: #ff5043;
+}
+.donate-area{
+    background-size: cover;
+    height: 100vh;
+    width:100%
+}
+.donation-content{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    text-align: center;
+    
+}
+.information h1{
+    font-size: 40px;
+}
+.information p{
+    font-size: 18px;
+    color:#7b7575d8;
+}
+.button{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 50px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button1 {
+    background-color: rgba(203, 198, 198, 0.14); 
+    color: #232121a9; 
+}
+.button1:hover {
+    color:#f44b3f;
+    border: 3px solid #f44b3f;
+}
+.button2 {
+    background-color: rgba(203, 198, 198, 0.14); 
+    color: #232121a9; 
+}
+.button2:hover {
+    color: #f44b3f;
+    border: 3px solid #f44b3f;
+}
+.button3 {
+    background-color: rgba(203, 198, 198, 0.14); 
+    color: #232121a9; 
+}
+.button3:hover {
+    color:#f44b3f;
+    border: 3px solid #f44b3f;
+} 
+.button4 {
+    background-color: rgba(203, 198, 198, 0.14); 
+    color: #232121a9; 
+}
+.button4:hover{
+    color:#f44b3f;
+    border: 3px solid #f44b3f;
+}
+.button5 {
+    background-color: rgba(203, 198, 198, 0.14); 
+    color: #232121a9; 
+}
+.button5:hover {
+    color:#f44b3f;
+    border: 3px solid #f44b3f;
 }
