@@ -5,7 +5,6 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 .banner-area{
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)), url("images/donation13.jpg");
@@ -25,6 +24,7 @@ body{
 .content h1{
     font-size: 60px;
     color:#fff;
+    margin-bottom: 20px;
 } 
 .content p{
     font-size: 20px;
@@ -34,7 +34,7 @@ body{
     border:none;
     outline:none;
     padding:15px;
-    margin-top: 100px;
+    margin-top: 40px;
     border-radius: 4px;
     color: #eee;
     font-size: 18px;
@@ -116,4 +116,134 @@ body{
 .button5:hover {
     color:#f44b3f;
     border: 3px solid #f44b3f;
+}
+.input-tag{
+    margin:100px;
+    display: block
+}
+.input-field{
+    position: relative;
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+}
+
+input{
+    
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+    justify-content: center;
+    align-items: center;
+}
+.donate-plan{
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+}
+.donate-box h1{
+    text-align: center;
+    font-size: 40px;
+}
+.donate-box p{
+    text-align: center;
+    font-size: 18px;
+    color: #7b7575d8;
+}
+.flexible-box{
+    display:flex;
+}
+.mint-box{
+    width: 450px;
+    padding: 30px;
+    border: 5px;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 20%;
+    margin-bottom: 10px;
+    border-radius:5px;
+    background-color:rgba(175, 216, 216, 0.462);
+}
+.pink-box{
+    width: 320px;
+    padding: 50px;
+    border: 5px;
+    
+    border-radius:5px;
+    background-color:rgba(240, 219, 234, 0.73);
+}
+.yellow-box{
+    width: 320px;
+    padding: 10px;
+    border: 5px;
+    margin-left:2%;
+    border-radius:5px;
+    background-color:rgba(245, 244, 173, 0.621);
+}
+.subscribe-btn{
+    margin:10px
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.header p{
+    text-align: center;
+    font-size: 18px;
+    color: #7b7575d8;
+    margin-bottom: 3px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.form{
+    background-color: rgba(242, 251, 157, 0.41);
+    padding: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+}
+.form-control{
+    padding: 17px;
+    padding-left: 50px;
+    border:0;
+    border-radius: 3px;
+}
+.form-control:focus{
+    outline:none;
+}
+.form-btn{
+    padding: 17px;
+    padding-right: 50px;
+    background-color: rgb(234, 85, 85);
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#footer-content {
+    font-size: 25px;
+    color: rgba(183, 134, 200, 0.923);
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: 80px;
+}
+.note{
+    font-size: 15px;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(200, 187, 187);
 }
